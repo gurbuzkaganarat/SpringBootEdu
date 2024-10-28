@@ -1,0 +1,176 @@
+2024-10-28T08:18:48.649+03:00  INFO 36284 --- [SBootEdu] [main] com.gka.SBootEduApplicationTests         : Starting SBootEduApplicationTests using Java 17.0.13 with PID 36284 (started by alkev in C:\Users\alkev\IdeaProjects\SBootEdu)
+2024-10-28T08:18:48.650+03:00  INFO 36284 --- [SBootEdu] [main] com.gka.SBootEduApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T08:18:49.272+03:00  INFO 36284 --- [SBootEdu] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T08:18:49.291+03:00  INFO 36284 --- [SBootEdu] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-10-28T08:18:49.792+03:00  INFO 36284 --- [SBootEdu] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T08:18:49.851+03:00  INFO 36284 --- [SBootEdu] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-28T08:18:49.888+03:00  INFO 36284 --- [SBootEdu] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T08:18:50.070+03:00  INFO 36284 --- [SBootEdu] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T08:18:50.089+03:00  INFO 36284 --- [SBootEdu] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T08:18:50.340+03:00  INFO 36284 --- [SBootEdu] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deneme user=ROOT
+2024-10-28T08:18:50.342+03:00  INFO 36284 --- [SBootEdu] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T08:18:50.361+03:00  WARN 36284 --- [SBootEdu] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-28T08:18:50.617+03:00  INFO 36284 --- [SBootEdu] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T08:18:50.621+03:00  INFO 36284 --- [SBootEdu] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:18:50.844+03:00  WARN 36284 --- [SBootEdu] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T08:18:51.298+03:00  WARN 36284 --- [SBootEdu] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-28T08:18:51.761+03:00  INFO 36284 --- [SBootEdu] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deneme'
+2024-10-28T08:18:51.805+03:00  INFO 36284 --- [SBootEdu] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-28T08:18:51.894+03:00  INFO 36284 --- [SBootEdu] [main] com.gka.SBootEduApplicationTests         : Started SBootEduApplicationTests in 3.462 seconds (process running for 4.623)
+2024-10-28T08:18:52.377+03:00  INFO 36284 --- [SBootEdu] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:18:52.378+03:00  INFO 36284 --- [SBootEdu] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T08:18:52.381+03:00  INFO 36284 --- [SBootEdu] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T08:21:07.895+03:00  INFO 4752 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : Starting SBootEduApplication using Java 17.0.13 with PID 4752 (C:\Users\alkev\IdeaProjects\SBootEdu\target\classes started by alkev in C:\Users\alkev\IdeaProjects\SBootEdu)
+2024-10-28T08:21:07.897+03:00  INFO 4752 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T08:21:07.942+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\alkev\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/alkev/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2024-10-28T08:21:07.943+03:00  INFO 4752 --- [SBootEdu] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T08:21:07.943+03:00  INFO 4752 --- [SBootEdu] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T08:21:08.631+03:00  INFO 4752 --- [SBootEdu] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T08:21:08.649+03:00  INFO 4752 --- [SBootEdu] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-10-28T08:21:09.368+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T08:21:09.385+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T08:21:09.386+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T08:21:09.441+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T08:21:09.441+03:00  INFO 4752 --- [SBootEdu] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1497 ms
+2024-10-28T08:21:09.590+03:00  INFO 4752 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T08:21:09.815+03:00  INFO 4752 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deneme user=ROOT
+2024-10-28T08:21:09.822+03:00  INFO 4752 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T08:21:09.833+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deneme'
+2024-10-28T08:21:10.058+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T08:21:10.124+03:00  INFO 4752 --- [SBootEdu] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-28T08:21:10.167+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T08:21:10.384+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T08:21:10.456+03:00  WARN 4752 --- [SBootEdu] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-28T08:21:10.696+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T08:21:10.700+03:00  INFO 4752 --- [SBootEdu] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:21:10.781+03:00  WARN 4752 --- [SBootEdu] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T08:21:11.255+03:00  WARN 4752 --- [SBootEdu] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-28T08:21:11.621+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T08:21:11.628+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-28T08:21:11.722+03:00  INFO 4752 --- [SBootEdu] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-28T08:21:11.735+03:00  INFO 4752 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : Started SBootEduApplication in 4.194 seconds (process running for 4.573)
+2024-10-28T08:21:39.214+03:00  INFO 36800 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : Starting SBootEduApplication using Java 17.0.13 with PID 36800 (C:\Users\alkev\IdeaProjects\SBootEdu\target\classes started by alkev in C:\Users\alkev\IdeaProjects\SBootEdu)
+2024-10-28T08:21:39.215+03:00  INFO 36800 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T08:21:39.243+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\alkev\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/alkev/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2024-10-28T08:21:39.243+03:00  INFO 36800 --- [SBootEdu] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T08:21:39.244+03:00  INFO 36800 --- [SBootEdu] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T08:21:39.780+03:00  INFO 36800 --- [SBootEdu] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T08:21:39.793+03:00  INFO 36800 --- [SBootEdu] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-10-28T08:21:40.262+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T08:21:40.272+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T08:21:40.272+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T08:21:40.304+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T08:21:40.304+03:00  INFO 36800 --- [SBootEdu] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1060 ms
+2024-10-28T08:21:40.381+03:00  INFO 36800 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T08:21:40.559+03:00  INFO 36800 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deneme user=ROOT
+2024-10-28T08:21:40.560+03:00  INFO 36800 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T08:21:40.567+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deneme'
+2024-10-28T08:21:40.679+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T08:21:40.711+03:00  INFO 36800 --- [SBootEdu] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-28T08:21:40.732+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T08:21:40.872+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T08:21:40.900+03:00  WARN 36800 --- [SBootEdu] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-28T08:21:41.101+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T08:21:41.105+03:00  INFO 36800 --- [SBootEdu] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:21:41.155+03:00  WARN 36800 --- [SBootEdu] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T08:21:41.390+03:00  WARN 36800 --- [SBootEdu] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-28T08:21:41.679+03:00  WARN 36800 --- [SBootEdu] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-10-28T08:21:41.684+03:00  INFO 36800 --- [SBootEdu] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-28T08:21:41.732+03:00  WARN 36800 --- [SBootEdu] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-28T08:21:41.734+03:00  INFO 36800 --- [SBootEdu] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:21:41.739+03:00  WARN 36800 --- [SBootEdu] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-28T08:21:41.739+03:00  INFO 36800 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T08:21:41.741+03:00  INFO 36800 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T08:21:41.754+03:00  INFO 36800 --- [SBootEdu] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-28T08:21:41.767+03:00 ERROR 36800 --- [SBootEdu] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-10-28T08:21:46.218+03:00  INFO 4752 --- [SBootEdu] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:21:46.223+03:00  WARN 4752 --- [SBootEdu] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-28T08:21:46.224+03:00  INFO 4752 --- [SBootEdu] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T08:21:46.225+03:00  INFO 4752 --- [SBootEdu] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T08:22:05.597+03:00  INFO 35580 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : Starting SBootEduApplication using Java 17.0.13 with PID 35580 (C:\Users\alkev\IdeaProjects\SBootEdu\target\classes started by alkev in C:\Users\alkev\IdeaProjects\SBootEdu)
+2024-10-28T08:22:05.600+03:00  INFO 35580 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T08:22:05.645+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\alkev\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/alkev/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2024-10-28T08:22:05.645+03:00  INFO 35580 --- [SBootEdu] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T08:22:05.645+03:00  INFO 35580 --- [SBootEdu] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T08:22:06.344+03:00  INFO 35580 --- [SBootEdu] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T08:22:06.362+03:00  INFO 35580 --- [SBootEdu] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-10-28T08:22:07.070+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T08:22:07.082+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T08:22:07.083+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T08:22:07.130+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T08:22:07.131+03:00  INFO 35580 --- [SBootEdu] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1485 ms
+2024-10-28T08:22:07.271+03:00  INFO 35580 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T08:22:07.492+03:00  INFO 35580 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deneme user=ROOT
+2024-10-28T08:22:07.496+03:00  INFO 35580 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T08:22:07.507+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deneme'
+2024-10-28T08:22:07.714+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T08:22:07.781+03:00  INFO 35580 --- [SBootEdu] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-28T08:22:07.823+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T08:22:08.065+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T08:22:08.129+03:00  WARN 35580 --- [SBootEdu] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-28T08:22:08.355+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T08:22:08.359+03:00  INFO 35580 --- [SBootEdu] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:22:08.422+03:00  WARN 35580 --- [SBootEdu] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T08:22:08.841+03:00  WARN 35580 --- [SBootEdu] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-28T08:22:09.176+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T08:22:09.183+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-28T08:22:09.252+03:00  INFO 35580 --- [SBootEdu] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-28T08:22:09.266+03:00  INFO 35580 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : Started SBootEduApplication in 3.991 seconds (process running for 4.349)
+2024-10-28T08:22:15.626+03:00  INFO 35580 --- [SBootEdu] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28T08:22:15.626+03:00  INFO 35580 --- [SBootEdu] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-28T08:22:15.627+03:00  INFO 35580 --- [SBootEdu] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-28T08:22:20.139+03:00  INFO 35580 --- [SBootEdu] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:22:20.144+03:00  WARN 35580 --- [SBootEdu] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-28T08:22:20.145+03:00  INFO 35580 --- [SBootEdu] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T08:22:20.146+03:00  INFO 35580 --- [SBootEdu] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-28T08:22:24.210+03:00  INFO 16160 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : Starting SBootEduApplication using Java 17.0.13 with PID 16160 (C:\Users\alkev\IdeaProjects\SBootEdu\target\classes started by alkev in C:\Users\alkev\IdeaProjects\SBootEdu)
+2024-10-28T08:22:24.211+03:00  INFO 16160 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : No active profile set, falling back to 1 default profile: "default"
+2024-10-28T08:22:24.239+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\alkev\.m2\repository\com\oracle\database\jdbc\ojdbc11\21.9.0.0\ojdbc11-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/alkev/.m2/repository/com/oracle/database/jdbc/ojdbc11/21.9.0.0/oraclepki.jar
+2024-10-28T08:22:24.239+03:00  INFO 16160 --- [SBootEdu] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-28T08:22:24.239+03:00  INFO 16160 --- [SBootEdu] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-28T08:22:24.806+03:00  INFO 16160 --- [SBootEdu] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-28T08:22:24.819+03:00  INFO 16160 --- [SBootEdu] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-10-28T08:22:25.309+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-28T08:22:25.319+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-28T08:22:25.319+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-10-28T08:22:25.352+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-28T08:22:25.353+03:00  INFO 16160 --- [SBootEdu] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1112 ms
+2024-10-28T08:22:25.429+03:00  INFO 16160 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-28T08:22:25.605+03:00  INFO 16160 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deneme user=ROOT
+2024-10-28T08:22:25.606+03:00  INFO 16160 --- [SBootEdu] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-28T08:22:25.612+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deneme'
+2024-10-28T08:22:25.719+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-28T08:22:25.753+03:00  INFO 16160 --- [SBootEdu] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-10-28T08:22:25.773+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-28T08:22:25.914+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-28T08:22:25.940+03:00  WARN 16160 --- [SBootEdu] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-28T08:22:26.127+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-28T08:22:26.130+03:00  INFO 16160 --- [SBootEdu] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:22:26.182+03:00  WARN 16160 --- [SBootEdu] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-28T08:22:26.400+03:00  WARN 16160 --- [SBootEdu] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-10-28T08:22:26.673+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-28T08:22:26.678+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-10-28T08:22:26.728+03:00  INFO 16160 --- [SBootEdu] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-10-28T08:22:26.739+03:00  INFO 16160 --- [SBootEdu] [restartedMain] com.gka.SBootEduApplication              : Started SBootEduApplication in 2.784 seconds (process running for 3.207)
+2024-10-28T08:22:27.220+03:00  INFO 16160 --- [SBootEdu] [RMI TCP Connection(2)-192.168.1.101] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-28T08:22:27.220+03:00  INFO 16160 --- [SBootEdu] [RMI TCP Connection(2)-192.168.1.101] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-28T08:22:27.221+03:00  INFO 16160 --- [SBootEdu] [RMI TCP Connection(2)-192.168.1.101] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-28T08:22:55.567+03:00  INFO 16160 --- [SBootEdu] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-28T08:22:55.573+03:00  WARN 16160 --- [SBootEdu] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-28T08:22:55.573+03:00  INFO 16160 --- [SBootEdu] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-28T08:22:55.575+03:00  INFO 16160 --- [SBootEdu] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
